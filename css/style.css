@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+
+html {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Langar', cursive;
+    overflow: auto;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url("../images/background.png");
+    background-size: contain; 
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+i {
+    font-style: italic;
+}
+
+b {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+header {
+    width: 100%;
+    height: 50%;
+}
+
+header .fixed_head {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 1.7em;
+    z-index: 100;
+    font-size: 1.5em;
+    color: white;
+    padding-top: 0.7em;
+    background-color: black;
+    display: table;
+    opacity: 0.6;
+    margin: 0 auto;
+}
+
+header .fixed_head .logo {
+    width: 20%;
+    margin-left: 0;
+    text-align: center;
+    display: table-cell;
+}
+
+header .fixed_head .menu {
+    width: 80%;
+    list-style: none;
+    display: table-cell;
+}
+
+header .fixed_head .menu ul li {
+    display: inline;
+    margin-right: 1.5em;
+}
+
+header .fixed_head li:hover {
+    color: white;
+    cursor: pointer;
+    opacity: 0.9;
+    background-color: #acb7c3;
+    -webkit-transform: translateX(-7px);
+    transform: translateX(-7px);
+}
+
+header .my_information {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    height: 100%;
+}
+
+header .my_information .my_photo img {
+    text-align: center;
+    border-radius: 70%;
+    width: 200px;
+    opacity: 0.88;
+}
+
+header .my_information .text_information .name_surname {
+    color: #706363;
+    font-size: 1.6em;
+}
+
+header .my_information .text_information .job {
+    color: #dd9a9a;
+    font-size: 1.3em;
+}
+
+/* ================================== QUOTES ==================================== */
+
+header .quotes {
+    width: 40%;
+    height: 40%;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    margin: 10px;
+    color: #BAC6CF;
+    background-color: rgba(54, 25, 25, .1);
+
+}
+
+header .quotes h1 {
+    margin-top: 20px;
+}
+
+header .quotes p {
+    font-size: 1.1em;
+}
+
+sup {
+    vertical-align:super;
+    font-size: 0.6em;
+}
+
+
+/* ================================== MAIN ==================================== */
+
+main {
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main h1 {
+    margin-top: 20px;
+}
+
+main section {
+    width: 50%;
+    height: 60%;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    margin: 10px;
+    color: #BAC6CF;
+    background-color: rgba(25, 25, 25, .5);
+}
+
+/* ================================== ABOUT ==================================== */
+
+
+main .about_section {
+    width: 30em;
+    height: 9em;
+    font-size: 1.25em;
+}
+
+/* ================================== EXPERIENCE ==================================== */
+
+
+main .experience_section {
+    width: 40em;
+    height: 18em;
+}
+
+main .experience_section dl {
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 1.25em;
+}
+
+main .experience_section dl dt {
+    margin-top: 20px;
+}
+
+main .experience_section dl dd {
+    margin-left: 15px;
+}
+
+
+/* ================================== PROJECTS ==================================== */
+
+
+main .projects_section {
+    width: 30em;
+    height: 12em;
+    font-size: 1.2em;
+}
+
+main .projects_section dl {
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 2%;
+}
+
+main .projects_section dl dt {
+    margin-top: 25px;
+}
+
+main .projects_section dl dt a {
+    color: white;
+    font-weight: bold;
+}
+
+main .projects_section dl dt a:hover {
+    color: white;
+}
+
+main .projects_section dl dd {
+    margin-left: 15px;
+}
+
+/* ================================== ACHIEVEMENTS ==================================== */
+
+
+main .achievements_section {
+    width: 25em;
+    height: 25em;
+}
+
+main .achievements_section  ul {
+    font-size: 1.1em;
+}
+
+main .achievements_section li ul li ins {
+    font-size: 0.8em;
+}
+
+
+/* ================================== FOOTER ==================================== */
+
+
+footer {
+    width: 100%;
+    height: 3%;
+    background-color: black;
+    z-index: 100;
+    position: fixed;
+    bottom: 0;
+    opacity: 0.6;
+    text-align: center;
+    padding: 0;
+}
+
+footer .rights {
+    height: 100%;
+    color: white;
+    margin: 0 auto;
+    display: table;
+}
+
+footer .rights span {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 1em;
+}
